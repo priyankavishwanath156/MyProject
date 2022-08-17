@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="14" total="24" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-08-17T21:05:38 IST" name="Suite" finished-at="2022-08-17T21:10:56 IST" duration-ms="318764">
+    <groups>
+      <group name="Sanity">
+        <method signature="AccountCreationPageTest.varifyAccountCreationPage()[pri:0, instance:com.mystore.testscript.AccountCreationPageTest@66f57048]" name="varifyAccountCreationPage" class="com.mystore.testscript.AccountCreationPageTest"/>
+        <method signature="AddToCartPageTest.addToCartPage()[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" name="addToCartPage" class="com.mystore.testscript.AddToCartPageTest"/>
+        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" name="loginTest" class="com.mystore.testscript.LoginPageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="AddToCartPageTest.addToCartPage()[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" name="addToCartPage" class="com.mystore.testscript.AddToCartPageTest"/>
+        <method signature="EndToEndTest.endtoendtest()[pri:0, instance:com.mystore.testscript.EndToEndTest@2c1b194a]" name="endtoendtest" class="com.mystore.testscript.EndToEndTest"/>
+        <method signature="OrderPageTest.verifyTotalPrice()[pri:0, instance:com.mystore.testscript.OrderPageTest@32502377]" name="verifyTotalPrice" class="com.mystore.testscript.OrderPageTest"/>
+      </group> <!-- Regression -->
+      <group name="Smoke">
+        <method signature="HomePageTest.orderhistorydetail()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" name="orderhistorydetail" class="com.mystore.testscript.HomePageTest"/>
+        <method signature="HomePageTest.wishListTest()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" name="wishListTest" class="com.mystore.testscript.HomePageTest"/>
+        <method signature="IndexPageTest.verifyLogo()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" name="verifyLogo" class="com.mystore.testscript.IndexPageTest"/>
+        <method signature="IndexPageTest.verifyTitle()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" name="verifyTitle" class="com.mystore.testscript.IndexPageTest"/>
+        <method signature="LoginPageTest.loginTest()[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" name="loginTest" class="com.mystore.testscript.LoginPageTest"/>
+        <method signature="SearchResultPageTest.productavialabilityTest()[pri:0, instance:com.mystore.testscript.SearchResultPageTest@437da279]" name="productavialabilityTest" class="com.mystore.testscript.SearchResultPageTest"/>
+      </group> <!-- Smoke -->
+    </groups>
+    <test started-at="2022-08-17T21:05:38 IST" name="Test_All" finished-at="2022-08-17T21:10:56 IST" duration-ms="318764">
+      <class name="com.mystore.testscript.IndexPageTest">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:06 IST" name="readConfig" finished-at="2022-08-17T21:10:06 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:06 IST" name="setup" finished-at="2022-08-17T21:10:20 IST" duration-ms="14119" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyLogo()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:20 IST" name="verifyLogo" finished-at="2022-08-17T21:10:21 IST" duration-ms="236" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyLogo -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:21 IST" name="teardown" finished-at="2022-08-17T21:10:21 IST" duration-ms="443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:21 IST" name="setup" finished-at="2022-08-17T21:10:34 IST" duration-ms="12756" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:21 IST" name="readConfig" finished-at="2022-08-17T21:10:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method signature="verifyTitle()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:34 IST" name="verifyTitle" finished-at="2022-08-17T21:10:34 IST" duration-ms="18" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTitle -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.IndexPageTest@7bab3f1a]" started-at="2022-08-17T21:10:34 IST" name="teardown" finished-at="2022-08-17T21:10:34 IST" duration-ms="481" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.IndexPageTest -->
+      <class name="com.mystore.testscript.OrderPageTest">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.OrderPageTest@32502377]" started-at="2022-08-17T21:07:11 IST" name="readConfig" finished-at="2022-08-17T21:07:11 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.OrderPageTest@32502377]" started-at="2022-08-17T21:07:11 IST" name="setup" finished-at="2022-08-17T21:07:24 IST" duration-ms="12789" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="verifyTotalPrice()[pri:0, instance:com.mystore.testscript.OrderPageTest@32502377]" started-at="2022-08-17T21:07:24 IST" name="verifyTotalPrice" finished-at="2022-08-17T21:07:53 IST" duration-ms="29341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyTotalPrice -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.OrderPageTest@32502377]" started-at="2022-08-17T21:07:53 IST" name="teardown" finished-at="2022-08-17T21:08:03 IST" duration-ms="10229" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.OrderPageTest -->
+      <class name="com.mystore.testscript.AccountCreationPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.AccountCreationPageTest@66f57048]" started-at="2022-08-17T21:09:16 IST" name="setup" finished-at="2022-08-17T21:09:24 IST" duration-ms="8093" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.AccountCreationPageTest@66f57048]" started-at="2022-08-17T21:09:24 IST" name="readConfig" finished-at="2022-08-17T21:09:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method signature="varifyAccountCreationPage()[pri:0, instance:com.mystore.testscript.AccountCreationPageTest@66f57048]" started-at="2022-08-17T21:09:24 IST" name="varifyAccountCreationPage" finished-at="2022-08-17T21:09:31 IST" duration-ms="7288" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- varifyAccountCreationPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.AccountCreationPageTest@66f57048]" started-at="2022-08-17T21:09:31 IST" name="teardown" finished-at="2022-08-17T21:09:32 IST" duration-ms="624" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.AccountCreationPageTest -->
+      <class name="com.mystore.testscript.LoginPageTest">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" started-at="2022-08-17T21:08:52 IST" name="readConfig" finished-at="2022-08-17T21:08:52 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" started-at="2022-08-17T21:08:52 IST" name="setup" finished-at="2022-08-17T21:09:03 IST" duration-ms="11089" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginTest()[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" started-at="2022-08-17T21:09:03 IST" name="loginTest" finished-at="2022-08-17T21:09:15 IST" duration-ms="11930" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.LoginPageTest@4dbb42b7]" started-at="2022-08-17T21:09:15 IST" name="teardown" finished-at="2022-08-17T21:09:16 IST" duration-ms="1046" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.LoginPageTest -->
+      <class name="com.mystore.testscript.HomePageTest">
+        <test-method is-config="true" signature="Config()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:05:37 IST" name="Config" finished-at="2022-08-17T21:05:38 IST" duration-ms="632" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Config -->
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:05:38 IST" name="readConfig" finished-at="2022-08-17T21:05:38 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:05:38 IST" name="setup" finished-at="2022-08-17T21:05:57 IST" duration-ms="19196" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="orderhistorydetail()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:05:57 IST" name="orderhistorydetail" finished-at="2022-08-17T21:06:15 IST" duration-ms="18482" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderhistorydetail -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:06:16 IST" name="teardown" finished-at="2022-08-17T21:06:16 IST" duration-ms="885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:06:16 IST" name="readConfig" finished-at="2022-08-17T21:06:16 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:06:16 IST" name="setup" finished-at="2022-08-17T21:06:37 IST" duration-ms="20470" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="wishListTest()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:06:37 IST" name="wishListTest" finished-at="2022-08-17T21:07:10 IST" duration-ms="33474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- wishListTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:07:10 IST" name="teardown" finished-at="2022-08-17T21:07:11 IST" duration-ms="484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:com.mystore.testscript.HomePageTest@3c7f66c4]" started-at="2022-08-17T21:10:57 IST" name="afterSuite" finished-at="2022-08-17T21:10:58 IST" duration-ms="1234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- com.mystore.testscript.HomePageTest -->
+      <class name="com.mystore.testscript.AddToCartPageTest">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" started-at="2022-08-17T21:09:32 IST" name="setup" finished-at="2022-08-17T21:09:44 IST" duration-ms="11858" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" started-at="2022-08-17T21:09:44 IST" name="readConfig" finished-at="2022-08-17T21:09:44 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method signature="addToCartPage()[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" started-at="2022-08-17T21:09:44 IST" name="addToCartPage" finished-at="2022-08-17T21:10:06 IST" duration-ms="21830" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addToCartPage -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.AddToCartPageTest@550dbc7a]" started-at="2022-08-17T21:10:06 IST" name="teardown" finished-at="2022-08-17T21:10:06 IST" duration-ms="634" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.AddToCartPageTest -->
+      <class name="com.mystore.testscript.EndToEndTest">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.EndToEndTest@2c1b194a]" started-at="2022-08-17T21:08:03 IST" name="readConfig" finished-at="2022-08-17T21:08:03 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.EndToEndTest@2c1b194a]" started-at="2022-08-17T21:08:03 IST" name="setup" finished-at="2022-08-17T21:08:14 IST" duration-ms="10438" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="endtoendtest()[pri:0, instance:com.mystore.testscript.EndToEndTest@2c1b194a]" started-at="2022-08-17T21:08:14 IST" name="endtoendtest" finished-at="2022-08-17T21:08:51 IST" duration-ms="37731" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endtoendtest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.EndToEndTest@2c1b194a]" started-at="2022-08-17T21:08:51 IST" name="teardown" finished-at="2022-08-17T21:08:52 IST" duration-ms="494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.EndToEndTest -->
+      <class name="com.mystore.testscript.SearchResultPageTest">
+        <test-method is-config="true" signature="readConfig()[pri:0, instance:com.mystore.testscript.SearchResultPageTest@437da279]" started-at="2022-08-17T21:10:34 IST" name="readConfig" finished-at="2022-08-17T21:10:34 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- readConfig -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.mystore.testscript.SearchResultPageTest@437da279]" started-at="2022-08-17T21:10:34 IST" name="setup" finished-at="2022-08-17T21:10:47 IST" duration-ms="12311" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="productavialabilityTest()[pri:0, instance:com.mystore.testscript.SearchResultPageTest@437da279]" started-at="2022-08-17T21:10:47 IST" name="productavialabilityTest" finished-at="2022-08-17T21:10:55 IST" duration-ms="8515" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- productavialabilityTest -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:com.mystore.testscript.SearchResultPageTest@437da279]" started-at="2022-08-17T21:10:55 IST" name="teardown" finished-at="2022-08-17T21:10:56 IST" duration-ms="1280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- com.mystore.testscript.SearchResultPageTest -->
+    </test> <!-- Test_All -->
+  </suite> <!-- Suite -->
+</testng-results>
