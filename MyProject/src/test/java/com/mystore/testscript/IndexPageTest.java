@@ -40,7 +40,7 @@ public class IndexPageTest extends BaseClass {
 	@Test(groups = "Smoke")
 	public void verifyTitle(){
 		String actTitle = indexPage.getMyProjectTitle();
-		Assert.assertEquals(actTitle, "My Store");
+		Assert.assertEquals(actTitle, "My Store1");
 	}
 
 }

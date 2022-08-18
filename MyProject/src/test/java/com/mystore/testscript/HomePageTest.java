@@ -49,7 +49,7 @@ public class HomePageTest extends BaseClass{
 		loginPage = indexPage.ClickOnSign();
 		homePage = loginPage.login(property.getProperty("username"),property.getProperty("password"));
 		boolean result = homePage.validateMyOrderHistory();
-		Assert.assertTrue(result);
+		Assert.assertTrue(false);
 	}
 
 }
